@@ -9,7 +9,7 @@ Sistem Informasi Aspirasi dan Pengaduan Mobile Application. <br>Developed to sup
 
 1. There's 2 android project named SIAPMVPDEV and SIAPNONMVP.<br>
 2. SIAPMVPDEV is a stable version of application, developed with MVP Design Pattern.<br>
-3. SIAPNONMVP is an application that has been created for research needs.<br>
+3. SIAPNONMVP is a not stable version of application that has been created for research needs.<br>
 4. siapservice folder is a web service used by application.<br>
 5. db_loginRegister.sql file is a database used by web service.
 
@@ -24,7 +24,7 @@ Import db_loginRegister to mysql local rdbms (example : phpmyadmin).
 Download siapservice folder and copy to your local htdocs folder.
 ```
 ```
-Import one of those android project to android studio and you ready to go.
+Import one of those android project (SIAPMVPDEV or SIAPNONMVP) to android studio and you ready to go.
 ```
 ## Authors
 
