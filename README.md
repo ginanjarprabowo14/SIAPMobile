@@ -1,5 +1,5 @@
 # SIAPMobile
-Sistem Informasi Aspirasi dan Pengaduan Mobile Version. Developed to support IKTI Laboratory research roadmap.
+Sistem Informasi Aspirasi dan Pengaduan Mobile Application. Developed to support IKTI Laboratory research roadmap.
 <br>
 ## Getting Started
 
