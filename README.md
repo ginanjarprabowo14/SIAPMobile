@@ -24,6 +24,6 @@ Import one of those android project to android studio and you ready to go.
 ```
 ## Authors
 
-* **Ginanjar Prabowo** &nbsp; [ginanjarprabowo14](https://github.com/ginanjarprabowo14)<br>
+**Ginanjar Prabowo** &nbsp; [ginanjarprabowo14](https://github.com/ginanjarprabowo14)<br>
 Sepuluh Nopember Institute of Technology<br>
 Information Systems Department
