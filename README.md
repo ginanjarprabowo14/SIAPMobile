@@ -2,8 +2,8 @@
 Sistem Informasi Aspirasi dan Pengaduan Mobile Application. <br>Developed to support IKTI Laboratory research roadmap.<br>
 <br>
 
-<img src ="http://128.199.206.16/SS-Siap1.png" width="252px" height="448px">
-<img src ="http://128.199.206.16/SS-Siap2.png" width="252px" height="448px">
+<img src ="https://github.com/ginanjarprabowo14/SIAPMobile/blob/master/SS-Siap1.png" width="252px" height="448px">
+<img src ="https://github.com/ginanjarprabowo14/SIAPMobile/blob/master/SS-Siap2.png" width="252px" height="448px">
 
 ## Getting Started
 
