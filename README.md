@@ -5,7 +5,7 @@ Sistem Informasi Aspirasi dan Pengaduan Mobile Version. Developed to support IKT
 
 1. There's 2 android project named SIAPMVPDEV and SIAPNONMVP.<br>
 2. SIAPMVPDEV is a stable version of application, developed with MVP Design Pattern.<br>
-3. SIAPNONMVP is application that has been created for research needs.<br>
+3. SIAPNONMVP is an application that has been created for research needs.<br>
 4. siapservice folder is a web service used by application.<br>
 5. db_loginRegister.sql file is a database used by web service.
 
@@ -20,7 +20,7 @@ What things you need to install the software and how to install them
 2. Download siapservice folder and copy to your local htdocs folder.
 ```
 ```
-3. Import one of those android project in android studio and you ready to go.
+3. Import one of those android project to android studio and you ready to go.
 ```
 ## Authors
 
