@@ -24,7 +24,7 @@ Import db_loginRegister to mysql local rdbms (example : phpmyadmin).
 Download siapservice folder and copy to your local htdocs folder.
 ```
 ```
-Import one of those android project (SIAPMVPDEV or SIAPNONMVP) to android studio and you ready to go.
+Import one of those android project (SIAPMVPDEV or SIAPNONMVP) to android studio and you were ready to go.
 ```
 ## Authors
 
