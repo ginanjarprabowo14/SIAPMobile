@@ -1,6 +1,6 @@
 # SIAPMobile
 Sistem Informasi Aspirasi dan Pengaduan Mobile Version. Developed to support IKTI Laboratory research roadmap.
-
+<br>
 ## Getting Started
 
 1. There's 2 android project named SIAPMVPDEV and SIAPNONMVP.<br>
@@ -14,13 +14,13 @@ Sistem Informasi Aspirasi dan Pengaduan Mobile Version. Developed to support IKT
 What things you need to install the software and how to install them
 
 ```
-1. Import db_loginRegister to mysql local rdbms (example : phpmyadmin).
+Import db_loginRegister to mysql local rdbms (example : phpmyadmin).
 ```
 ```
-2. Download siapservice folder and copy to your local htdocs folder.
+Download siapservice folder and copy to your local htdocs folder.
 ```
 ```
-3. Import one of those android project to android studio and you ready to go.
+Import one of those android project to android studio and you ready to go.
 ```
 ## Authors
 
