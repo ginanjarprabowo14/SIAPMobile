@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/belum_diterima_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/noDataToShow"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="No data to show"
+            android:fontFamily="sans-serif-light"
+            android:textSize="12sp"
+            android:textColor="@color/colorText"
+            android:layout_marginTop="22dp"
+            android:gravity="center" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerviewAduanBelumDiterima"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</android.support.v4.widget.SwipeRefreshLayout>

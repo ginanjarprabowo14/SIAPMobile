@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/baris1"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+        <TextView
+            android:text="Sistem Informasi"
+            android:textSize="11sp"
+            android:textAlignment="textStart"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-light"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Aspirasi dan Pengaduan Masyarakat"
+            android:textSize="11sp"
+            android:textAlignment="textStart"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-light"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/labelLogin"
+            android:text="Login Administrator"
+            android:textSize="10sp"
+            android:padding="2dp"
+            android:background="@drawable/shape5"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="20dp"
+            android:layout_width="140dp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_height="18dp" />
+
+    </LinearLayout>
+
+
+
+<android.support.v7.widget.CardView
+    android:id="@+id/baris2"
+    android:layout_below="@id/baris1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    app:cardElevation="75dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            android:layout_marginBottom="80dp"
+            android:layout_marginRight="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="@dimen/marginLoginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="start"
+            android:layout_width="200dp"
+            android:alpha="0.5"
+            android:textColorHint="#535050"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:hint="Email"
+                android:id="@+id/et_email"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:alpha="0.5"
+            android:textColorHint="#535050">
+
+            <EditText
+                android:hint="Password"
+                android:id="@+id/et_password"
+                android:textColor="@color/colorText"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/colorText"
+            android:text="Pastikan data yang anda isikan benar"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_gravity="bottom"
+        android:id="@+id/btn_login"
+        android:layout_alignParentBottom="true"
+        android:text="Login"
+        android:background="@color/colorText2"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+
+</android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

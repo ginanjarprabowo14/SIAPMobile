@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutGlobalBuatTiket"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.ginanjarpr.siapmvpdev.function.tiket.TiketActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarBuatTiket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbars"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/AppTheme"
+            android:titleTextColor="@color/colorText"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <ImageView
+                android:id="@+id/buttonBackBuatTiket"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ic_arrow_back"
+                android:layout_gravity="left"
+                android:layout_marginLeft="25dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"/>
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="94dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Buat Aduan Baru"
+        android:textColor="@color/colorText"
+        android:textSize="10sp" />
+
+    <com.rd.PageIndicatorView
+        android:id="@+id/pageIndicatorView"
+        android:alpha="1"
+        android:layout_marginBottom="70dp"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        app:piv_animationType="worm"
+        app:piv_dynamicCount="true"
+        app:piv_interactiveAnimation="true"
+        app:piv_selectedColor="@color/colorSelect2"
+        app:piv_unselectedColor="@color/colorUnselect2"
+        app:piv_viewPager="@id/containerBuatAduan"
+        attrs:piv_padding="18dp"
+        attrs:piv_radius="6dp" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/appBarBuatTiket"
+        android:id="@+id/containerBuatAduan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:background="@android:color/transparent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Next"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:id="@+id/buttonFinish"
+        android:visibility="gone"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:background="@android:color/transparent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Finish"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:id="@+id/buttonPrevious"
+        android:visibility="invisible"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:background="@android:color/transparent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:text="Previous"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+
+</RelativeLayout>

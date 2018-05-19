@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">180dp</dimen>
+    <dimen name="fab_margin">22dp</dimen>
+    <dimen name="fab_size">88dp</dimen>
+
+
+    <dimen name="ModalWidth">150dp</dimen>
+    <dimen name="ModalHeightInput">150dp</dimen>
+    <dimen name="ModalHeight">100dp</dimen>
+    <dimen name="ModalHeightSelesai">114dp</dimen>
+    <dimen name="ModalHeightTidakDitemukan">95dp</dimen>
+    <dimen name="ModalHeightDitemukan">135dp</dimen>
+
+    <dimen name="NotaTextSize">18sp</dimen>
+    <dimen name="VCKapalAtasssss">10sp</dimen>
+    <dimen name="NotaTextSizeCounter">39sp</dimen>
+
+
+    <dimen name="design_fab_image_size" tools:override="true">22dp</dimen>
+
+    <dimen name="marginHome">50dp</dimen>
+    <dimen name="marginloadingbuataduan">264dp</dimen>
+    <dimen name="stepsatuMarginTop">80dp</dimen>
+    <dimen name="stepduaMarginTop">110dp</dimen>
+    <dimen name="marginLoginTop">20dp</dimen>
+    <dimen name="marginAdmin">35dp</dimen>
+    <dimen name="marginCountCard">30dp</dimen>
+    <dimen name="marginTentang">140dp</dimen>
+    <dimen name="marginprogressTentang">170dp</dimen>
+
+</resources>

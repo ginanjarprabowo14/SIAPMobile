@@ -1,0 +1,206 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="337dp"
+    android:orientation="horizontal"
+    android:layout_marginBottom="0dp"
+    android:background="@color/colorPrimary"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:elevation="1dp">
+    <!--Focusable, buat highlight focus item-->
+    <!--android:focusable="true"-->
+    <!--android:focusableInTouchMode="true"-->
+
+
+    <TextView
+        android:id="@+id/counterTiket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginCountCard"
+        android:layout_marginTop="17dp"
+        android:layout_weight="0"
+        android:alpha="0.3"
+        android:text="1"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/NotaTextSizeCounter"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:maxLength="21"
+            android:layout_marginLeft="@dimen/marginCountCard"
+            android:text="Nomor Tiket"
+            android:textColor="@color/colorText"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/txtNomorTiket"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:fontFamily="sans-serif-medium"
+            android:maxLength="25"
+            android:layout_marginLeft="@dimen/marginCountCard"
+            android:text="ticket098712"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/NotaTextSize" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/marginCountCard">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Nama"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/VCKapalAtasssss" />
+
+                <TextView
+                    android:id="@+id/txtNamaPengadu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:maxLength="14"
+                    android:text="Rysma Aditya W"
+                    android:textColor="@color/colorText"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/ic_arrow_forward" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Nomor Telepon"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/VCKapalAtasssss" />
+
+                <TextView
+                    android:id="@+id/txtNomorTelepon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:maxLength="45"
+                    android:text="082145674185"
+                    android:textColor="@color/colorText"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="@dimen/marginCountCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Alamat"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/VCKapalAtasssss" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/marginCountCard"
+            android:id="@+id/txtAlamatPengadu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:maxLength="45"
+            android:text="Jalan Perak Timur no. 52 B Kecamatan Ipsum"
+            android:textColor="@color/colorText"
+            android:textSize="11sp" />
+
+
+        <TextView
+            android:layout_marginLeft="@dimen/marginCountCard"
+            android:id="@+id/txtKategoriTiket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-medium"
+            android:maxLength="45"
+            android:text="Perbaikan Jalan"
+            android:textColor="@color/colorText"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/marginCountCard"
+            android:id="@+id/txtIsiTiket"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Terdapat lubang di jalan meriam no.24 depan indomart bundaran, tolong segera dilakukan perbaikan mengingat jalan tersebut padat digunakan oleh kendaraan bermotor."
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/VCKapalAtasssss" />
+
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/marginCountCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btnHapus"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:backgroundTint="@color/colorDisAgree"
+                android:text="HAPUS"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/btnTerima"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:backgroundTint="@color/colorAgree"
+                android:text="TERIMA"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

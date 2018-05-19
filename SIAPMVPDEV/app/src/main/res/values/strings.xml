@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SIAP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="Kategori">                    <!--0-->
+        <item>Layanan Masyarakat</item>               <!--1-->
+        <item>Fasilitas</item>                        <!--2-->
+        <item>Lingkungan</item>                       <!--3-->
+        <item>Sarana dan Prasarana</item>             <!--4-->
+    </string-array>
+
+    <string-array name="Departemen">                    <!--0-->
+        <item>Keuangan</item>               <!--1-->
+        <item>Operasional</item>                        <!--2-->
+        <item>Change Management</item>                       <!--3-->
+        <item>Sarana dan Prasarana</item>             <!--4-->
+    </string-array>
+
+    <string name="info_konfirmasi_terima">Terima Aduan</string>
+    <string name="channel_name">Notif</string>
+    <string name="channel_description">Standar Notif</string>
+
+</resources>

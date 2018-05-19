@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="@dimen/stepduaMarginTop"
+        android:alpha="0.5"
+        android:textColorHint="#535050">
+
+        <EditText
+            android:id="@+id/et_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="12dp"
+        android:alpha="0.5"
+        android:textColorHint="#535050">
+
+        <EditText
+            android:id="@+id/et_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat Pengadu"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="12dp"
+        android:alpha="0.5"
+        android:textColorHint="#535050">
+
+        <EditText
+            android:id="@+id/et_nomor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Telepon"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/labelVerifNIK"
+        android:layout_width="244dp"
+        android:layout_height="18dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/shape4"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="Sistem Informasi Aspirasi dan Pengaduan"
+        android:textColor="@color/colorPrimary"
+        android:textSize="10sp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Pastikan data yang anda isi benar."
+        android:textColor="@color/colorText"
+        android:textSize="10sp" />
+
+</LinearLayout>
+

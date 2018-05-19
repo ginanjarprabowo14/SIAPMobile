@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btnDismissDialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/colorText"
+            android:clickable="true">
+
+            <ImageView
+                android:maxWidth="10dp"
+                android:maxHeight="10dp"
+                android:src="@drawable/ic_cancel_putih"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:text="Dismiss"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="33dp"
+        android:layout_marginLeft="33dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorText4"
+            android:textSize="11sp"
+            android:text="Aduan dengan nomor tiket"/>
+
+        <TextView
+            android:id="@+id/txtNoTiket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            android:text="ticket098712"/>
+
+        <TextView
+            android:id="@+id/txtDetailKonfirmasi"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="22dp"
+            android:textColor="@color/colorText4"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="10sp"
+            android:text="Telah Dikembalikan"/>
+
+        <TextView
+            android:id="@+id/labelRole"
+            android:layout_width="160dp"
+            android:layout_height="18dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/shape6"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Admin SKPD"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10sp" />
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageTanda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_playlist_add"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="98dp"
+        android:layout_marginRight="30dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressHome"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:visibility="invisible"
+        android:layout_marginBottom="154dp"
+        android:layout_marginLeft="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:id="@+id/baris1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/titleHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Sistem Informasi Aspirasi"
+                android:textAlignment="textStart"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-light"
+                android:text="dan Pengaduan Masyarakat"
+                android:textAlignment="textStart"
+                android:textSize="11sp" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/welcomeNama"
+            android:layout_width="160dp"
+            android:layout_height="18dp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape4"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Warga"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBawah"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/baris1"
+        android:layout_marginTop="@dimen/marginHome"
+        android:orientation="vertical"
+        android:paddingLeft="52dp">
+        <!--android:background="@drawable/illustrations">-->
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Check Status Aduan"
+            android:textColor="@color/colorText"
+            android:textSize="11sp" />
+
+        <EditText
+            android:id="@+id/et_noTiket"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:hint="Masukkan No. Tiket..."
+            android:textCursorDrawable="@null"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textColor="@color/colorText"
+            android:textColorHint="#C2C2C2"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/penjelasanNotif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:alpha="0.5"
+            android:fontFamily="sans-serif-light"
+            android:text="Pastikan no. tiket yang anda masukkan benar"
+            android:textColor="@color/colorText"
+            android:textSize="10sp" />
+        
+        <ImageView
+            android:id="@+id/btnCekAduan"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginRight="34dp"
+            android:layout_gravity="right"
+            android:background="@drawable/circlegreen"
+            android:padding="10dp"
+            android:src="@drawable/ic_return"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/segmenbawah"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/colorText2"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="13sp"
+            android:text="Buat Aduan Baru"
+            android:paddingTop="20dp"
+            android:paddingLeft="40dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <LinearLayout
+            android:id="@+id/buttonAddTiket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color3"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="+"
+                android:textColor="@color/colorPrimary"
+                android:textSize="43sp"
+                android:paddingBottom="5dp"
+                android:gravity="center"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

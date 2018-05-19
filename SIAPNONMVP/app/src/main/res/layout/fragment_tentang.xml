@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressHome"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:visibility="invisible"
+        android:layout_marginBottom="154dp"
+        android:layout_marginLeft="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:id="@+id/baris1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/titleHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Sistem Informasi Aspirasi"
+                android:textAlignment="textStart"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-light"
+                android:text="dan Pengaduan Masyarakat"
+                android:textAlignment="textStart"
+                android:textSize="11sp" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/welcomeNama"
+            android:layout_width="160dp"
+            android:layout_height="18dp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape4"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Tentang Aplikasi"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBawah"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/baris1"
+        android:layout_marginTop="@dimen/marginHome"
+        android:orientation="vertical"
+        android:paddingLeft="52dp">
+        <!--android:background="@drawable/illustrations">-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Developed by"
+            android:textAlignment="textStart"
+            android:textSize="8sp" />
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Ginanjar Prabowo"
+        android:textColor="@color/colorText"
+        android:textSize="14sp" />
+
+    <TextView
+
+        android:layout_marginLeft="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="05211440000115"
+        android:textColor="@color/colorText"
+        android:textSize="12sp"
+        android:alpha="0.3"/>
+
+</LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Institut Teknologi Sepuluh Nopember"
+            android:layout_marginTop="@dimen/marginTentang"
+            android:textAlignment="textStart"
+            android:textSize="10sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Department of Information Systems"
+            android:textAlignment="textStart"
+            android:textSize="10sp" />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="@dimen/marginprogressTentang"/>
+
+
+
+</RelativeLayout>
